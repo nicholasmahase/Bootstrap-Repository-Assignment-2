@@ -9,6 +9,10 @@ body {
 .nav.justify-content-end {
     background-color: #fff;
 }
+.nav-link:hover {
+    background-color: darkgray;
+    color: #fff;
+}
 h3 {
     position: relative;
     top: 130px;
@@ -33,6 +37,7 @@ a {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
+    text-transform: uppercase;
 }
 .portfolio_title {
     border-bottom: 3px solid #dddddd;
@@ -109,8 +114,20 @@ textarea {
         width:100%;
     }
     h3{
-        top:233px;
         width: 100%;
+    }
+    .display-1{
+        font-size: 27px;
+    }
+ }
+ @media only screen and (max-width: 575px){
+    img{
+        width:100%;
+    }
+    h3 {
+        top: 230px;
+        width: 100%;
+        font-size: 18px;
     }
     .display-1{
         font-size: 27px;
